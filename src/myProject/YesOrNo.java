@@ -10,6 +10,7 @@ public class YesOrNo
 		boolean fries;
 		int  num;
 		String howMuch;
+		System.out.println("I fixed the problem");
 		fries = (JOptionPane.showConfirmDialog
 				(null, "Would you like fries?","Please choose",JOptionPane.YES_NO_OPTION)==JOptionPane.YES_OPTION);
 		if(fries)
